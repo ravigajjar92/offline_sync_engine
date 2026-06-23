@@ -147,17 +147,17 @@ class _HomeScreenState extends State<HomeScreen> {
               alignment: MainAxisAlignment.center,
               spacing: 8,
               children: [
-                OutlinedButton(
+                const OutlinedButton(
                   onPressed: OfflineSync.sync,
-                  child: const Text('Sync Now'),
+                  child: Text('Sync Now'),
                 ),
-                OutlinedButton(
+                const OutlinedButton(
                   onPressed: OfflineSync.pause,
-                  child: const Text('Pause'),
+                  child: Text('Pause'),
                 ),
-                OutlinedButton(
+                const OutlinedButton(
                   onPressed: OfflineSync.resume,
-                  child: const Text('Resume'),
+                  child: Text('Resume'),
                 ),
                 OutlinedButton(
                   onPressed: () async {
