@@ -1,0 +1,29 @@
+name: offline_sync_engine
+description: >-
+  A production-ready, framework-agnostic offline-first synchronization engine
+  for Flutter. Persistent queue, exponential-backoff retries, connectivity-aware
+  auto-sync, conflict resolution, and a typed event stream.
+version: 1.0.0
+homepage: https://github.com/your-org/offline_sync_engine
+repository: https://github.com/your-org/offline_sync_engine
+issue_tracker: https://github.com/your-org/offline_sync_engine/issues
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  connectivity_plus: ^6.0.5
+  http: ^1.2.2
+  uuid: ^4.5.1
+  meta: ^1.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mocktail: ^1.0.4
+
+flutter:

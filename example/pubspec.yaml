@@ -1,0 +1,21 @@
+name: offline_sync_engine_example
+description: Demonstrates offline_sync_engine end-to-end.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  offline_sync_engine:
+    path: ..
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
