@@ -15,6 +15,14 @@ automatically as soon as connectivity returns.
 
 ---
 
+## Supported transports
+
+- [x] **HTTP / REST** — built-in (`HttpSyncClient`)
+- [ ] **GraphQL** — not supported (planned)
+- [ ] **WebSocket** — not supported (planned)
+
+---
+
 ## Architecture
 
 ```
